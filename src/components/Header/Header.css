@@ -1,0 +1,23 @@
+/* Header */
+.header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    background: white;
+    height: 2rem;
+    margin-right: 1rem;
+    padding: 0 1rem;
+    border: 0;
+}
+
+.button:hover,
+.button:active {
+    color: white;
+    background: rgb(124, 124, 124);
+}

@@ -1,0 +1,55 @@
+/* Schermata iniziale */
+.first-screen { 
+    text-align: center;
+    position: relative;
+    top: 4rem;
+
+    font-size: 3rem;
+}
+
+.input-group {
+
+    
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.input-label {
+    margin-right: 1rem;
+    vertical-align: top;
+}
+
+input, textarea {
+    font-family: inherit;
+}
+
+.input-text {
+    font-size: 1.5rem;
+    width: 40rem;
+    height: 2rem;
+}
+
+.input-textarea {
+    font-size: 1rem;
+    resize: none;
+    overflow: auto;
+    width: 40rem;
+    height: 10rem;
+}
+
+.button--confirm {
+    font-family: 'Roboto', sans-serif;
+    background: black;
+    color: white;
+    height: 2rem;
+    margin-right: 1rem;
+    padding: 0 1rem;
+    border: 0;
+}
+
+.button--confirm:hover,
+.button--confirm:active {
+    color: white;
+    background: rgb(124, 124, 124);
+    cursor: pointer;
+}
